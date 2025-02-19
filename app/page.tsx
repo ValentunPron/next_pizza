@@ -1,4 +1,4 @@
-import { Categories, Container, Title } from "@/components/shared";
+import { Categories, Container, SortPoput, Title, TopBar } from "@/components/shared";
 
 export default function Home() {
   return (
@@ -6,8 +6,9 @@ export default function Home() {
       <Container className="mt-10">
         <Title text="Всі піци" size="lg" className="font-extrabold"/>
 
-        <Categories className="mt-2"/>
       </Container>
+
+      <TopBar />
     </>
   );
 }
