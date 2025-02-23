@@ -7,3 +7,4 @@ export { Input } from './input';
 export { RadioGroupItem } from "./radio-group";
 export { Select } from './select';
 export {Skeleton} from './skeleton';
+import { RangeSlider } from "./range-slider";
